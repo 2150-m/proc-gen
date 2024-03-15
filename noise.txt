@@ -1,0 +1,19 @@
+#height = 400;
+#width = this.#height * 2;
+#numOfGridsY = 35;
+#numOfGridsX = this.#numOfGridsY * 2;
+#pixelsPerGrid = this.#height / this.#numOfGridsY;
+
+#seed = 2;
+#initLandCount = 4;
+#continentSizeFactor = 0.5;
+#landPercentage = 0.21;
+#edgeDistFactorX = 0.16;
+#edgeDistFactorY = 0.08;
+#edgeDistFactorX_Initial = 0.3;
+#edgeDistFactorY_Initial = 0.4;
+
+#stopGrowth = 10;
+#resumeGrowth_Lower = 4;
+#resumeGrowth_Upper = 7;
+#growthColorStep = 10;
